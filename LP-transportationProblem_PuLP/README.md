@@ -1,3 +1,3 @@
-The goal of this small project is to practice using PuLP in python. In particular, I will simulate an LP transportation problem where the goal is to minimize the costs of transporting goods from the factory to the stores.
+The goal of this small project is to practice using PuLP in python. In particular, I will simulate a network flow transportation problem, where the goal is to minimize the costs of transporting goods from the factory to the stores. This simple problem will be defined as an LP, and will be solved with PuLP.
 
-For those that are not familiar with it, PuLP is a linear and mixed integer programming modeler written in Python. PuLP can generate MPS or LP files and call solvers such as GLPK, COIN-OR CLP/CBC, CPLEX, GUROBI, MOSEK, XPRESS, CHOCO, MIPCL, HiGHS, SCIP/FSCIP.
+For those that are not familiar with PuLP, i is a linear and mixed integer programming modeler written in Python. PuLP can generate MPS or LP files and call solvers such as GLPK, COIN-OR CLP/CBC, CPLEX, GUROBI, MOSEK, XPRESS, CHOCO, MIPCL, HiGHS, SCIP/FSCIP.
