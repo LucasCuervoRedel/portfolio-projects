@@ -76,4 +76,4 @@ print("Status:", LpStatus[prob.status])
 for v in prob.variables():
     print(v.name, "=", v.varValue)
 
-print("Total Cost of Ingredients per can = ", value(prob.objective))
+print("Total cost for transporting items to customers = ", value(prob.objective))
